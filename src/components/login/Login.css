@@ -1,0 +1,457 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:400,500,600,800|Blinker:400|Abril+Fatface:400");
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.screen a {
+  display: contents; /* hide link text */
+}
+.flex-col {
+  -webkit-backdrop-filter: blur(100px) brightness(100%);
+  align-items: flex-start;
+  backdrop-filter: blur(100px) brightness(100%);
+  background-color: #ffffff33;
+  display: flex;
+  flex-direction: column;
+  mid-hight: 1084px;
+  padding: 16px 0;
+  width: 1920px;
+}
+.flex-row {
+  align-items: center;
+  display: flex;
+  width: 1803px;
+}
+
+.website-name {
+  left: calc(50% - 294px / 2 - 813px);
+  top: calc(50% - 45.13px / 2 - 8.94px);
+  -webkit-backgreound-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(
+    90deg,
+    #92caad 20.86%,
+    #93d2e6 41.31%,
+    #eebaa5 78.26%,
+    #eebaa5 83.94%
+  );
+  background-clip: text;
+  color: transparent;
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 800;
+  line-hight: 58px;
+  height: 120px;
+  letter-spacing: 0;
+  text-align: center;
+  text-fill-color: transparent;
+  width: 294px;
+  cursor: pointer;
+}
+.container {
+  align-items: center;
+  display: flex;
+  margin-left: 497px;
+  margin-top: 2.27px;
+  width: 693px;
+}
+.inter-normal-black-24px {
+  color: #000000;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+}
+.internship-container {
+  align-self: flex-end;
+  height: 76px;
+  margin-bottom: 0px;
+  position: relative;
+  width: 147px;
+}
+.internship-title {
+  /* Internships */
+
+  position: absolute;
+  width: 147.33px;
+  height: 50.27px;
+  left: calc(50% - 147.33px / 2 - 163.33px);
+  top: calc(50% - 48.13px / 2 - 8.94px);
+
+  right: 57.62%;
+
+  bottom: 93.18%;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+.internship-icon {
+  /* Layer 2 */
+
+  position: absolute;
+  left: 40.57%;
+  right: 57.62%;
+  top: 9.61%;
+  bottom: 93.18%;
+}
+.courses-icon {
+  position: absolute;
+  left: 54.01%;
+  right: 44.26%;
+  top: 12.7%;
+  bottom: 93.22%;
+}
+.courses-title {
+  /* Courses */
+
+  position: absolute;
+  width: 115.34px;
+  height: 48.13px;
+  left: calc(50% - 95.34px / 2 + 93.67px);
+  top: calc(50% - 48.13px / 2 - 8.94px);
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+.jobs-icon {
+  position: absolute;
+  left: 66.51%;
+  right: 31.23%;
+  top: 12.7%;
+  bottom: 93.12%;
+}
+
+.jobs-title {
+  position: absolute;
+  width: 112.94px;
+  height: 47.12px;
+  left: calc(50% - 55.94px / 2 + 339.47px);
+  top: calc(50% - 45.13px / 2 - 8.94px);
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+.body-group-container {
+  filter: blur(37px);
+  -webkit-filter: blur(37px);
+  align-items: flex-start;
+  display: flex;
+  height: 793px;
+  margin-left: 39px;
+  margin-top: 52px;
+  width: 1721px;
+}
+.cloud-container {
+  height: 638px;
+  position: relative;
+  width: 901px;
+}
+.white-cloud {
+  height: 459px;
+  left: 0;
+  position: absolute;
+  top: 96px;
+  width: 711px;
+}
+.blue-cloud {
+  height: 555px;
+  left: 41px;
+  position: absolute;
+  top: 0;
+  width: 860px;
+}
+.click-icon {
+  height: 145px;
+  left: 595px;
+  position: absolute;
+  top: 410px;
+  width: 145px;
+}
+
+.title {
+  color: black;
+  font-family: "Abril Fatface", cursive;
+  font-size: 96px;
+  font-weight: 400;
+  height: 617px;
+  left: 60px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 35px;
+  width: 757px;
+}
+.activity-container {
+  position: absolute;
+  width: 417.16px;
+  height: 675.37px;
+  left: 1375px;
+  top: -16px;
+  background: linear-gradient(
+    158.62deg,
+    rgba(149, 213, 179, 0.23) 0%,
+    rgba(126, 193, 214, 0.23) 100%
+  );
+  box-shadow: 7.5px 7.5px 15px #fff8f5;
+  border-radius: 52px;
+}
+
+.activity {
+  height: 58px;
+  position: relative;
+  width: 371px;
+}
+
+.my-applications {
+  color: #000000;
+  font-family: "Blinker";
+  font-size: 32px;
+  font-weight: 400;
+  height: 57px;
+  left: 60px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 41px;
+  width: 309px;
+}
+.line {
+  height: 2px;
+  left: 21px;
+  position: absolute;
+  top: 99px;
+  size: 1px;
+}
+
+.please-log-in-to-review-your-history {
+  align-self: center;
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  height: 50px;
+  letter-spacing: 0;
+  margin-left: 64.2px;
+  margin-top: 238px;
+  text-align: center;
+  width: 326px;
+}
+
+.register-button {
+  /* Rectangle 1 */
+
+  position: absolute;
+  width: 130px;
+  height: 47px;
+  left: 1669px;
+  top: 31px;
+  background: #235666;
+  border-radius: 10px;
+}
+.register {
+  -webkit-backgreound-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(
+    98.65deg,
+    #afecff 4.53%,
+    #beebd3 48.18%,
+    #ffe0d4 90.93%
+  );
+  background-clip: text;
+  height: 45px;
+  letter-spacing: 0;
+  text-align: center;
+  text-fill-color: transparent;
+  width: 107.8px;
+  left: calc(50% - 94.61px / 2 + 776.53px);
+  top: calc(50% - 45.13px / 2 - 8.94px);
+  padding: 7px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.please-login {
+  /* LOG IN TO YOUR ACCOUNT */
+
+  position: absolute;
+  width: 241px;
+  height: 22px;
+  left: calc(50% - 241px / 2 + 0.5px);
+  top: calc(50% - 22px / 2 - 211px);
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #235666;
+}
+.login-username {
+  /* Rectangle 3 */
+
+  box-sizing: border-box;
+  border: 2px solid;
+  position: absolute;
+  backgreound-color: #f4f7fd;
+  width: 420px;
+  height: 44px;
+  left: calc(50% - 395px / 2 + 0.5px);
+  top: calc(50% - 22px / 2 - 117px);
+  border-radius: 15px;
+  padding-left: 1%;
+}
+input:focus {
+  outline: none;
+}
+.login-password {
+  box-sizing: border-box;
+  border: 2px solid #235666;
+  position: absolute;
+  width: 420px;
+  height: 44px;
+  left: calc(50% - 395px / 2 + 0.5px);
+  top: calc(50% - 22px / 2 - 36px);
+  border-radius: 15px;
+  padding-left: 1%;
+}
+::-webkit-input-placeholder {
+  /* Username */
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+
+  color: rgba(0, 0, 0, 0.5);
+}
+.remember-me {
+  /* Group 13 */
+
+  position: absolute;
+  width: 147px;
+  height: 17px;
+  left: 771px;
+  top: 509px;
+}
+.remember-me-title {
+  /* Remember username */
+
+  position: absolute;
+  width: 131px;
+  height: 17px;
+  left: 22px;
+  top: calc(50% - 17px / 2 - 37.5px);
+
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+
+  color: rgba(0, 0, 0, 0.5);
+}
+.remember-me-check {
+  /* Rectangle 7 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  left: 1px;
+  top: -38px;
+
+  background: #f4f7fd;
+  border: 0.2px solid #000000;
+}
+
+.forgot-password {
+  /* Group 14 */
+
+  position: absolute;
+  width: 131px;
+  height: 17px;
+  left: 1055px;
+  top: 469px;
+}
+.forgot-password-button {
+  /* Forgot Password? */
+  text-decoration: underline;
+  position: absolute;
+  width: 131px;
+  height: 17px;
+  left: calc(50% - 131px / 2 + 120.5px);
+  top: calc(50% - 17px / 2 - 37.5px);
+
+  font-family: "Calibri";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-decoration-line: underline;
+
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: underline;
+}
+.login-button-text {
+  /* Rectangle 6 */
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  position: absolute;
+  width: 210px;
+  height: 50px;
+  left: calc(50% - 210px / 2);
+
+  top: calc(50% - -32px / 2 + 70px);
+  border: 0.5px solid #235666;
+  background: linear-gradient(
+    92.6deg,
+    rgba(106, 89, 199, 0.48) 3.19%,
+    rgba(163, 228, 248, 0.6) 35.18%,
+    rgba(167, 220, 192, 0.6) 100%
+  );
+  border-radius: 15px;
+  paddint: 1%;
+}
