@@ -1,11 +1,14 @@
+
+// import Register from './components/register/Register';
 // import Landing from './components/landing/Landing';
 import Login from './components/login/Login';
+
 import './App.css';
 function App() {
   return (
     <div className="App">
+  
    <Login />
-   
     </div>
   );
 }
