@@ -1,0 +1,183 @@
+@import url("https://rsms.me/inter/inter.css");
+html {
+  font-family: "Inter", sans-serif;
+}
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", sans-serif;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background: #fffbfa;
+  width: 100vw;
+  height: 100vh;
+  background: -moz-linear-gradient(
+    -45deg,
+    #fffbfa 0%,
+    #f1fbfe 60%,
+    #e9f6f4 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    right bottom,
+    color-stop(0%, #fffbfa),
+    color-stop(60%, #f1fbfe),
+    color-stop(100%, #e9f6f4)
+  );
+  background: -webkit-linear-gradient(
+    -45deg,
+    #fffbfa 0%,
+    #f1fbfe 60%,
+    #e9f6f4 100%
+  );
+  background: -o-linear-gradient(-45deg, #fffbfa 0%, #f1fbfe 60%, #e9f6f4 100%);
+  background: -ms-linear-gradient(
+    -45deg,
+    #fffbfa 0%,
+    #f1fbfe 60%,
+    #e9f6f4 100%
+  );
+  background: linear-gradient(135deg, #fffbfa 0%, #f1fbfe 60%, #e9f6f4 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffbfa', endColorstr='#e9f6f4', GradientType=1 );
+}
+
+.navbar {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: #fff8f5;
+  background: -moz-linear-gradient(
+    left,
+    #fff8f5 0%,
+    #edfafe 73%,
+    #e4f4f1 96%,
+    #e4f4f1 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    right top,
+    color-stop(0%, #fff8f5),
+    color-stop(73%, #edfafe),
+    color-stop(96%, #e4f4f1),
+    color-stop(100%, #e4f4f1)
+  );
+  background: -webkit-linear-gradient(
+    left,
+    #fff8f5 0%,
+    #edfafe 73%,
+    #e4f4f1 96%,
+    #e4f4f1 100%
+  );
+  background: -o-linear-gradient(
+    left,
+    #fff8f5 0%,
+    #edfafe 73%,
+    #e4f4f1 96%,
+    #e4f4f1 100%
+  );
+  background: -ms-linear-gradient(
+    left,
+    #fff8f5 0%,
+    #edfafe 73%,
+    #e4f4f1 96%,
+    #e4f4f1 100%
+  );
+  background: linear-gradient(
+    to right,
+    #fff8f5 0%,
+    #edfafe 73%,
+    #e4f4f1 96%,
+    #e4f4f1 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff8f5', endColorstr='#e4f4f1', GradientType=1 );
+}
+.navbar__logo {
+  padding: 20px;
+}
+
+.nav-bar_right {
+  display: flex;
+  margin-right: 335px;
+}
+.nav-bar_right > * {
+  padding: 20px;
+}
+.navbar span {
+  margin-right: 166px;
+}
+.body {
+  margin-top: 97px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  place-content: center;
+  justify-content: space-around;
+} /* 
+.left {
+  margin-right: 190px;
+}
+.right {
+  margin-left: 180px;
+} */
+
+.find-job {
+  /* Find a Job */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+  color: #235666;
+  margin-left: 128px;
+}
+
+input {
+  /* Rectangle 12 */
+
+  box-sizing: border-box;
+
+  width: 538px;
+  height: 56.36px;
+
+  background: #f4f3fb;
+  margin-top: 20px;
+  border-radius: 15px;
+
+  padding-left: 20px;
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  -webkit-box-shadow: 10px 18px 16px 1px rgba(196, 236, 244, 1);
+  -moz-box-shadow: 10px 18px 16px 1px rgba(196, 236, 244, 1);
+  box-shadow: 10px 18px 16px 1px rgba(196, 236, 244, 1);
+}
+input:focus {
+  color: black;
+  outline: none;
+  border: 1px solid #a3e4f8;
+  background: #ffffff;
+}
+::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+.search-button {
+  cursor: pointer;
+  margin-left: 130px;
+  margin-top: 40px;
+}

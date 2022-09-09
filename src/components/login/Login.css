@@ -9,6 +9,7 @@
 .screen a {
   display: contents; /* hide link text */
 }
+
 .flex-col {
   -webkit-backdrop-filter: blur(100px) brightness(100%);
   align-items: flex-start;
