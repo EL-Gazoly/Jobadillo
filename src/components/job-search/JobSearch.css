@@ -13,7 +13,6 @@ html {
   box-sizing: border-box;
 }
 .container {
-  background: #fffbfa;
   width: 100vw;
   height: 100vh;
   background: -moz-linear-gradient(
@@ -46,7 +45,7 @@ html {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffbfa', endColorstr='#e9f6f4', GradientType=1 );
 }
 
-.body {
+.job-body {
   margin-top: 97px;
   display: flex;
   flex-direction: row;
@@ -54,14 +53,7 @@ html {
   align-items: center;
   place-content: center;
   justify-content: space-around;
-} /* 
-.left {
-  margin-right: 190px;
 }
-.right {
-  margin-left: 180px;
-} */
-
 .find-job {
   /* Find a Job */
   font-family: "Inter";
@@ -111,7 +103,7 @@ input:focus {
 ::-webkit-input-placeholder {
   color: rgba(0, 0, 0, 0.5);
 }
-.search-button {
+.job-search-button {
   cursor: pointer;
   margin-left: 130px;
   margin-top: 40px;
