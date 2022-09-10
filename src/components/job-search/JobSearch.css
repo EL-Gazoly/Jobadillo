@@ -46,72 +46,6 @@ html {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffbfa', endColorstr='#e9f6f4', GradientType=1 );
 }
 
-.navbar {
-  background-color: #fff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  background: #fff8f5;
-  background: -moz-linear-gradient(
-    left,
-    #fff8f5 0%,
-    #edfafe 73%,
-    #e4f4f1 96%,
-    #e4f4f1 100%
-  );
-  background: -webkit-gradient(
-    left top,
-    right top,
-    color-stop(0%, #fff8f5),
-    color-stop(73%, #edfafe),
-    color-stop(96%, #e4f4f1),
-    color-stop(100%, #e4f4f1)
-  );
-  background: -webkit-linear-gradient(
-    left,
-    #fff8f5 0%,
-    #edfafe 73%,
-    #e4f4f1 96%,
-    #e4f4f1 100%
-  );
-  background: -o-linear-gradient(
-    left,
-    #fff8f5 0%,
-    #edfafe 73%,
-    #e4f4f1 96%,
-    #e4f4f1 100%
-  );
-  background: -ms-linear-gradient(
-    left,
-    #fff8f5 0%,
-    #edfafe 73%,
-    #e4f4f1 96%,
-    #e4f4f1 100%
-  );
-  background: linear-gradient(
-    to right,
-    #fff8f5 0%,
-    #edfafe 73%,
-    #e4f4f1 96%,
-    #e4f4f1 100%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff8f5', endColorstr='#e4f4f1', GradientType=1 );
-}
-.navbar__logo {
-  padding: 20px;
-}
-
-.nav-bar_right {
-  display: flex;
-  margin-right: 335px;
-}
-.nav-bar_right > * {
-  padding: 20px;
-}
-.navbar span {
-  margin-right: 166px;
-}
 .body {
   margin-top: 97px;
   display: flex;
@@ -172,6 +106,7 @@ input:focus {
   outline: none;
   border: 1px solid #a3e4f8;
   background: #ffffff;
+  transform: translateX(113px) translateY(-15px);
 }
 ::-webkit-input-placeholder {
   color: rgba(0, 0, 0, 0.5);
