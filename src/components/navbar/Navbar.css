@@ -13,11 +13,8 @@ html {
   box-sizing: border-box;
 }
 
-.navbar {
+.nav-bar {
   background-color: #fff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 
   background: #fff8f5;
   background: -moz-linear-gradient(
@@ -65,17 +62,43 @@ html {
   );
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff8f5', endColorstr='#e4f4f1', GradientType=1 );
 }
-.navbar__logo {
+
+.nav-bar-container {
+  width: 1355.94px;
+  height: 119.27px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-bar__logo {
   padding: 20px;
 }
 
 .nav-bar_right {
   display: flex;
-  margin-right: 335px;
+  width: 633px;
+  height: 76px;
 }
-.nav-bar_right > * {
+/* .nav-bar_right > * {
   padding: 20px;
+} */
+.nav-bar span {
+  width: 211px;
+  height: 77px;
 }
-.navbar span {
-  margin-right: 166px;
+
+.nav-bar-internships {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.nav-bar-courses {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-bar-jobs {
+  display: flex;
+  justify-content: flex-end;
 }
