@@ -3,7 +3,7 @@ import './JobSearch.css'
 import Navbar from '../navbar/Navbar.jsx'
 const JobSearch = () => {
   return (
-    <div className='container max-w-full'>
+    <div className='container max-w-full max-h-full'>
         <Navbar />
         <div className="job-body"
        >
