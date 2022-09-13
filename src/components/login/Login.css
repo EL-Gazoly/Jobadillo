@@ -85,130 +85,107 @@ html {
 }
 .login-page-body {
   width: 100vw;
-  height: 686px;
-  background: url("../assets/home_page_blured_background.svg");
+  height: 88vh;
+  background: url("../assets/home_page_blured_background.svg") no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.please-login {
-  /* LOG IN TO YOUR ACCOUNT */
 
-  position: absolute;
+.login-container {
+  width: 420px;
+  height: 314px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 126px;
+}
+.login-form-header {
   width: 241px;
   height: 22px;
-  left: calc(50% - 241px / 2 + 0.5px);
-  top: calc(50% - 22px / 2 - 211px);
+  /* LOG IN TO YOUR ACCOUNT */
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
-  /* identical to box height */
-  display: flex;
-  align-items: center;
-  text-align: center;
 
   color: #235666;
+  align-self: center;
 }
-.login-username {
-  /* Rectangle 3 */
+.login-form-middel {
+  width: 420px;
+  height: 145px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.login-form-input-fields {
+  width: 420px;
+  height: 115px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.login-form-input-fields input {
+  width: 420px;
+  height: 44px;
+  box-sizing: border-box;
 
-  box-sizing: border-box;
-  border: 2px solid;
-  position: absolute;
-  backgreound-color: #f4f7fd;
-  width: 420px;
-  height: 44px;
-  left: calc(50% - 395px / 2 + 0.5px);
-  top: calc(50% - 22px / 2 - 117px);
+  background: rgba(244, 243, 251, 0.6);
   border-radius: 15px;
-  padding-left: 1%;
-}
-input:focus {
-  outline: none;
-}
-.login-password {
-  box-sizing: border-box;
-  border: 2px solid #235666;
-  position: absolute;
-  width: 420px;
-  height: 44px;
-  left: calc(50% - 395px / 2 + 0.5px);
-  top: calc(50% - 22px / 2 - 36px);
-  border-radius: 15px;
-  padding-left: 1%;
-}
-::-webkit-input-placeholder {
-  /* Username */
+
   font-family: "Blinker";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  display: flex;
-  align-items: center;
-
-  color: rgba(0, 0, 0, 0.5);
+  line-height: 19px;
+  padding-left: 20px;
+  paddin-right: 20px;
+  -webkit-box-shadow: 10px 18px 16px 1px rgba(196, 236, 244, 1);
+  -moz-box-shadow: 10px 18px 16px 1px rgba(196, 236, 244, 1);
+  box-shadow: 10px 18px 16px 1px rgba(196, 236, 244, 1);
 }
-.remember-me {
-  /* Group 13 */
+.login-form-input-fields input:focus {
+  outline: none;
+  border: 2px solid rgba(196, 236, 244, 1);
+  transition: 0.4s;
+  background: transparent;
+}
 
-  position: absolute;
+.login-form-checkbox {
+  width: 368px;
+  height: 17px;
+  display: flex;
+  justify-content: space-between;
+}
+.login-form-rember-me-container {
   width: 147px;
   height: 17px;
-  left: 771px;
-  top: 509px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.remember-me-title {
+.login-form-rember-me-label {
   /* Remember username */
 
-  position: absolute;
   width: 131px;
   height: 17px;
-  left: 22px;
-  top: calc(50% - 17px / 2 - 37.5px);
 
   font-family: "Blinker";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-  /* identical to box height */
-  display: flex;
-  align-items: center;
 
   color: rgba(0, 0, 0, 0.5);
 }
-.remember-me-check {
-  /* Rectangle 7 */
-
-  box-sizing: border-box;
-
-  position: absolute;
-  width: 13px;
-  height: 13px;
-  left: 1px;
-  top: -38px;
-
-  background: #f4f7fd;
-  border: 0.2px solid #000000;
-}
-
-.forgot-password {
-  /* Group 14 */
-
-  position: absolute;
+.login-form-forgot-password {
   width: 131px;
   height: 17px;
-  left: 1055px;
-  top: 469px;
-}
-.forgot-password-button {
-  /* Forgot Password? */
-  text-decoration: underline;
-  position: absolute;
-  width: 131px;
-  height: 17px;
-  left: calc(50% - 131px / 2 + 120.5px);
-  top: calc(50% - 17px / 2 - 37.5px);
 
   font-family: "Calibri";
   font-style: normal;
@@ -220,29 +197,13 @@ input:focus {
   align-items: center;
   text-align: center;
   text-decoration-line: underline;
+  cursor: pointer;
 
   color: rgba(0, 0, 0, 0.6);
-  text-decoration: underline;
 }
-.login-button-text {
-  /* Rectangle 6 */
-  font-family: "Blinker";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  position: absolute;
+.login-form-bottom {
   width: 210px;
-  height: 50px;
-  left: calc(50% - 210px / 2);
-
-  top: calc(50% - -32px / 2 + 70px);
-  border: 0.5px solid #235666;
-  background: linear-gradient(
-    92.6deg,
-    rgba(106, 89, 199, 0.48) 3.19%,
-    rgba(163, 228, 248, 0.6) 35.18%,
-    rgba(167, 220, 192, 0.6) 100%
-  );
-  border-radius: 15px;
-  paddint: 1%;
+  height: 44px;
+  align-self: center;
+  cursor: pointer;
 }
