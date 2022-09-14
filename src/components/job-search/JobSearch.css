@@ -13,7 +13,8 @@ html {
   box-sizing: border-box;
 }
 .container {
-  min-height: 100vh;
+  height: 88vh;
+  overflow-y: scroll;
   background: -moz-linear-gradient(
     -45deg,
     #fffbfa 0%,
@@ -45,13 +46,16 @@ html {
 }
 
 .job-body {
+  width: 1620px;
+  height: 541.04px;
   margin-top: 97px;
+  margin-left: 40px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
   place-content: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .find-job {
   /* Find a Job */

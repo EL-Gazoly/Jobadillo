@@ -17,11 +17,6 @@ html {
 
 .guest-nav-bar {
   background-color: #fff;
-  width: 100vw;
-  height: 103px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 
   background: #fff8f5;
   background: -moz-linear-gradient(
@@ -69,8 +64,16 @@ html {
   );
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff8f5', endColorstr='#e4f4f1', GradientType=1 );
 }
+.guest-nav-bar-container {
+  display: flex;
+  width: 1803px;
+  height: 104.64px;
+  justify-content: space-between;
+  padding: 0 2rem;
+  align-items: center;
+}
 .guest-nav-bar__logo {
-  padding: 20px;
+  /* padding: 20px; */
 }
 
 .guest-nav-bar_right {
@@ -78,10 +81,10 @@ html {
   height: 76.27px;
   display: flex;
   justify-content: space-between;
-  padding-top: 10px;
+  padding-top: 4px;
 }
 .guest-nav-bar_left {
-  padding-right: 80px;
+  /* padding-right: 80px; */
 }
 .login-page-body {
   width: 100vw;

@@ -6,7 +6,7 @@ const JobSearch = () => {
   return (
     <div className='container max-w-full max-h-full'>
         <Navbar />
-        <div className="job-body"
+        <div className="job-body max-h-full"
        >
           <div className="left">
           <svg width="728" height="538" viewBox="0 0 728 538" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -87,7 +87,7 @@ const JobSearch = () => {
 
 
           </div>
-          <div className="right" style={{'margin-right': "135px"}}>
+          <div className="right" >
             <div 
             style= {{
               "display" : "flex" , 
