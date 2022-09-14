@@ -1,9 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { useRef } from 'react'
+import { useState} from 'react'
 import './Register.css'
 const Register = () => {
-  const  selectRef = useRef('');
+  const [click, setClick] = useState('#a1aaba');
+
   return (
     <div className=' max-h-full max-w-full '>
         <div className="guest-nav-bar">
@@ -91,19 +92,19 @@ const Register = () => {
             </div>
              <div className="register-form-middel">
                 <div className="register-form-middel-first-row">
-                  <input type="text" placeholder="Username" className="register-form-middel-first-row-username"/>
-                  <input type="emaail" placeholder="Email" className="register-form-middel-first-row-email"/>
+                  <input type="text" placeholder="Username *" className="register-form-middel-first-row-username"/>
+                  <input type="emaail" placeholder="Email *" className="register-form-middel-first-row-email"/>
                 </div>
                 <div className="register-form-middel-second-row">
-                  <input type="password" placeholder="Password" className="register-form-middel-second-row-password"/>
-                  <input type="password" placeholder="Confirm Password" className="register-form-middel-second-row-confirm-password"/>
+                  <input type="password" placeholder="Password *" className="register-form-middel-second-row-password"/>
+                  <input type="password" placeholder="Confirm Password *" className="register-form-middel-second-row-confirm-password"/>
                 </div>  
                 <div className="register-form-middel-third-row">
                   {/* gender selection */}
-                  <select ref={selectRef} style= {{color: selectRef.current.valueOf=== '' ? ' #235666' : 'black' }} onClick = {console.log(selectRef.current.value)}>
+                  <select onClick={ ()=> setClick('black') }  style= {{color: `${click}` }}>
                     
                     
-                    <option className='default-option-value' value='' disabled selected>Gender</option>
+                    <option className='default-option-value' value='null' disabled selected>Gender *</option>
                     <option value='male'>Male</option>
                     <option value='femlae'>Female</option>
                   </select>
