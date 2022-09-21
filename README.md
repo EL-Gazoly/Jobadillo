@@ -3,7 +3,14 @@
 
 website to give undergraduates better chance to get an internship
 
+## Installation
 
+Install the project with npm
+
+```bash
+  npm install 
+  npm start
+```
 ## Authors
 
 - [@EL-Gazoly](https://github.com/EL-Gazoly)
@@ -25,11 +32,3 @@ website to give undergraduates better chance to get an internship
 HTML, CSS , Reactjs , docker .
 
 
-## Installation
-
-Install the project with npm
-
-```bash
-  npm install 
-  npm start
-```
